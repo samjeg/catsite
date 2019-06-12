@@ -8,20 +8,31 @@
 
 
 .cat-list-item-image {
-	height: 35vh;
+	/*position: absolute;*/
+	height: 45vh;
 	width: 60vw;
+	/*z-index: -10;*/
+}
+
+.cat-list-item-image-container {
+	/*position: absolute*/
+	height: 40vh;
+	width: 60vw;
+	overflow: hidden;	
 }
 
 .cat-list-item {
-	height: 40vh;
+	margin-top: 10vh;
+	height: 45vh;
 	width: 60vw;
-	border: solid #000;
-	border-width: 2px 2px
+	border: solid #0066FF;
+	border-width: 2px ;
+	/*overflow: hidden;*/
 }
 
 .cat-list-button {
 	/*float: right;*/
-	height: 5vw;
+	height: 7vh;
 	margin: 5vh 5vw 5vh 70vw;
 	/*width: 10vw;*/
 }
@@ -30,6 +41,12 @@
 	margin-left: 5vw;
 	margin-top: 10vh;
 	width: 85vw;
+}
+
+.owner {
+	background-color: #000,
+	height: 100vw;
+	/*color: #000;*/
 }
 
 .cat-list-item-button {
