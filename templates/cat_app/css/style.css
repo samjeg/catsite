@@ -1,0 +1,12 @@
+.imageframe {
+	height: 3vw;
+	width: 3vw;
+	border-radius: 50%;
+	margin-left: 5vw;
+}
+
+.center {
+	margin-left: 27.5vw;
+	height: 60vh;
+	width: 30vw;
+}
